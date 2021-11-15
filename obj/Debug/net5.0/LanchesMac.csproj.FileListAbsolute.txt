@@ -142,4 +142,5 @@ C:\Users\Michel Soares\source\repos\LanchesMac\obj\Debug\net5.0\LanchesMac.dll
 C:\Users\Michel Soares\source\repos\LanchesMac\obj\Debug\net5.0\ref\LanchesMac.dll
 C:\Users\Michel Soares\source\repos\LanchesMac\obj\Debug\net5.0\LanchesMac.pdb
 C:\Users\Michel Soares\source\repos\LanchesMac\obj\Debug\net5.0\LanchesMac.genruntimeconfig.cache
+C:\Users\Michel Soares\source\repos\LanchesMac\obj\Debug\net5.0\Razor\Views\Shared\_LanchesResumo.cshtml.g.cs
 C:\Users\Michel Soares\source\repos\LanchesMac\obj\Debug\net5.0\LanchesMac.csproj.AssemblyReference.cache

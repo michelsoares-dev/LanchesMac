@@ -20,14 +20,12 @@
     }*@
 <div classe="container">
     <div class="row">
-        @foreach (var lanche in Model.Lanches)
+        @foreach (Lanche lanche in Model.Lanches)
         {
-            <div class="col-sm-4">
-                <img src="@lanche.ImagemUrl" alt="" />
-                <h3 class=text-left> @lanche.Preco.ToString("c") </h3>
-                <p>@lanche.Nome</p>
-                <p>@lanche.DescricaoCurta</p>
-            </div>
+            @*
+               Usando partil VIEW antiga e nova sintaxe
+            @Html.Partial("_LanchesResumo", lanche);*@
+            <partial name="_LanchesResumo" for="@lanche" />
         }
     </div>
 </div>
