@@ -1,5 +1,6 @@
 ﻿using LanchesMac.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace LanchesMac.Context
 {

@@ -40,6 +40,10 @@ namespace LanchesMac
             services.AddScoped(cp => CarrinhoCompra.GetCarrinho(cp));
 
             services.AddControllersWithViews();
+
+            //ADICIONEI MANUALMENTE - na código do Macoratti não tinha
+            services.AddMvc().AddSessionStateTempDataProvider();
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

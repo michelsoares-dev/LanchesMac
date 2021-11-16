@@ -58,7 +58,7 @@ namespace LanchesMac.Models
                 {
                     CarrinhoCompraId = CarrinhoCompraId,
                     Lanche = lanche,
-                    Quantidade = 1
+                    Quantidade = quantidade
                 };
 
                 _context.CarrinhoCompraItens.Add(carrinhoCompraItem);
@@ -124,3 +124,4 @@ namespace LanchesMac.Models
         }
     }
 }
+ 
